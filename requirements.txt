@@ -8,3 +8,6 @@ matplotlib
 # Machine learning libraries
 torch
 scikit-learn
+
+# Other libraries
+colorama
