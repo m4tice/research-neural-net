@@ -1,0 +1,10 @@
+# Data manipulation and analysis libraries
+numpy
+pandas
+
+# Visualization libraries
+matplotlib
+
+# Machine learning libraries
+torch
+scikit-learn
