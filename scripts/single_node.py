@@ -4,6 +4,8 @@ import numpy as np
 from colorama import Fore, init
 from matplotlib import pyplot as plt
 
+from scripts.utils import sigmoid
+
 init()
 
 # THEORICAL BACKGROUND
@@ -28,10 +30,6 @@ y = 1.0      # target output
 lr = 5.0     # learning rate (bigger because sigmoid gradients are naturally small)
 
 training_statistic = []
-
-def sigmoid(v):
-    # σ(v) = 1 / (1 + e^(-v))
-    return 1 / (1 + math.exp(-v))
 
 for step in range(50):
     # ---------------- FORWARD ----------------
