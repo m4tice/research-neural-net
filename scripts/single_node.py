@@ -4,7 +4,7 @@ import numpy as np
 from colorama import Fore, init
 from matplotlib import pyplot as plt
 
-from scripts.utils import sigmoid
+from utils import sigmoid
 
 init()
 
