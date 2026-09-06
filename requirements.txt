@@ -1,13 +1,10 @@
-# Data manipulation and analysis libraries
 numpy
-pandas
-
-# Visualization libraries
-matplotlib
-
-# Machine learning libraries
 torch
+torchvision
+torchaudio
+scipy
+matplotlib
+pydantic
+pandas
 scikit-learn
-
-# Other libraries
 colorama
